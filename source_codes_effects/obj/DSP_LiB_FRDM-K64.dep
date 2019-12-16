@@ -1,0 +1,108 @@
+Dependencies for Project 'DSP_LiB', Target 'FRDM-K64': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\src\bpdenoise.h)(0x5DEE5F7C)()
+F (.\delay_intr.c)(0x5DEE60AC)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork -I C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include -I C:\Freescale\KSDK_1.2.0\platform\devices\MK64F12 -I .\drivers -I .\RTE\Device\MK64FN1M0xxx12\include-I.\RTE\_FRDM-K64-IC:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Sajib\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -D_RTE_ -DMK64FN1M0xxx12-o .\obj\delay_intr.o --omf_browse .\obj\delay_intr.crf --depend .\obj\delay_intr.d)
+I (.\drivers\audio.h)(0x53E2A07C)
+I (.\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h)(0x539224F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h)(0x550962F4)
+I (.\RTE\Device\MK64FN1M0xxx12\include\system_MK64F12.h)(0x53FE5692)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\arm_math.h)(0x550962F4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B88E8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B88E2)
+I (.\drivers\delay.h)(0x53BEDB40)
+I (.\drivers\gpio.h)(0x53D12242)
+I (.\drivers\platform.h)(0x53F3C162)
+I (.\drivers\i2c.h)(0x53E24606)
+I (.\drivers\i2s.h)(0x53CE94CA)
+I (.\drivers\dma.h)(0x53F28216)
+F (.\drivers\delay.c)(0x53EBEC96)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork -I C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include -I C:\Freescale\KSDK_1.2.0\platform\devices\MK64F12 -I .\drivers -I .\RTE\Device\MK64FN1M0xxx12\include-I.\RTE\_FRDM-K64-IC:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Sajib\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -D_RTE_ -DMK64FN1M0xxx12-o .\obj\delay.o --omf_browse .\obj\delay.crf --depend .\obj\delay.d)
+I (.\drivers\platform.h)(0x53F3C162)
+I (.\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h)(0x539224F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h)(0x550962F4)
+I (.\RTE\Device\MK64FN1M0xxx12\include\system_MK64F12.h)(0x53FE5692)
+I (drivers\delay.h)(0x53BEDB40)
+F (.\drivers\gpio.c)(0x53E24570)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork -I C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include -I C:\Freescale\KSDK_1.2.0\platform\devices\MK64F12 -I .\drivers -I .\RTE\Device\MK64FN1M0xxx12\include-I.\RTE\_FRDM-K64-IC:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Sajib\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -D_RTE_ -DMK64FN1M0xxx12-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (.\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h)(0x539224F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h)(0x550962F4)
+I (.\RTE\Device\MK64FN1M0xxx12\include\system_MK64F12.h)(0x53FE5692)
+I (drivers\platform.h)(0x53F3C162)
+I (drivers\gpio.h)(0x53D12242)
+F (.\drivers\i2c.c)(0x53ED06AE)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork -I C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include -I C:\Freescale\KSDK_1.2.0\platform\devices\MK64F12 -I .\drivers -I .\RTE\Device\MK64FN1M0xxx12\include-I.\RTE\_FRDM-K64-IC:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Sajib\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -D_RTE_ -DMK64FN1M0xxx12-o .\obj\i2c.o --omf_browse .\obj\i2c.crf --depend .\obj\i2c.d)
+I (.\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h)(0x539224F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h)(0x550962F4)
+I (.\RTE\Device\MK64FN1M0xxx12\include\system_MK64F12.h)(0x53FE5692)
+I (drivers\platform.h)(0x53F3C162)
+I (drivers\delay.h)(0x53BEDB40)
+I (drivers\i2c.h)(0x53E24606)
+F (.\drivers\i2s.c)(0x53FF6230)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork -I C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include -I C:\Freescale\KSDK_1.2.0\platform\devices\MK64F12 -I .\drivers -I .\RTE\Device\MK64FN1M0xxx12\include-I.\RTE\_FRDM-K64-IC:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Sajib\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -D_RTE_ -DMK64FN1M0xxx12-o .\obj\i2s.o --omf_browse .\obj\i2s.crf --depend .\obj\i2s.d)
+I (.\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h)(0x539224F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h)(0x550962F4)
+I (.\RTE\Device\MK64FN1M0xxx12\include\system_MK64F12.h)(0x53FE5692)
+I (drivers\platform.h)(0x53F3C162)
+I (drivers\i2s.h)(0x53CE94CA)
+F (.\drivers\audio.c)(0x53FF8242)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork -I C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include -I C:\Freescale\KSDK_1.2.0\platform\devices\MK64F12 -I .\drivers -I .\RTE\Device\MK64FN1M0xxx12\include-I.\RTE\_FRDM-K64-IC:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Sajib\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -D_RTE_ -DMK64FN1M0xxx12-o .\obj\audio.o --omf_browse .\obj\audio.crf --depend .\obj\audio.d)
+I (.\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h)(0x539224F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h)(0x550962F4)
+I (.\RTE\Device\MK64FN1M0xxx12\include\system_MK64F12.h)(0x53FE5692)
+I (.\drivers\gpio.h)(0x53D12242)
+I (.\drivers\platform.h)(0x53F3C162)
+I (.\drivers\delay.h)(0x53BEDB40)
+I (drivers\i2c.h)(0x53E24606)
+I (drivers\i2s.h)(0x53CE94CA)
+I (drivers\dma.h)(0x53F28216)
+I (drivers\audio.h)(0x53E2A07C)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\arm_math.h)(0x550962F4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B88E8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B88E2)
+F (.\drivers\dma.c)(0x53FF8312)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork -I C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include -I C:\Freescale\KSDK_1.2.0\platform\devices\MK64F12 -I .\drivers -I .\RTE\Device\MK64FN1M0xxx12\include-I.\RTE\_FRDM-K64-IC:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Sajib\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -D_RTE_ -DMK64FN1M0xxx12-o .\obj\dma.o --omf_browse .\obj\dma.crf --depend .\obj\dma.d)
+I (.\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h)(0x539224F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h)(0x550962F4)
+I (.\RTE\Device\MK64FN1M0xxx12\include\system_MK64F12.h)(0x53FE5692)
+I (drivers\platform.h)(0x53F3C162)
+I (drivers\audio.h)(0x53E2A07C)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\arm_math.h)(0x550962F4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B88E8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B88E2)
+I (drivers\delay.h)(0x53BEDB40)
+I (drivers\gpio.h)(0x53D12242)
+I (drivers\i2c.h)(0x53E24606)
+I (drivers\i2s.h)(0x53CE94CA)
+I (drivers\dma.h)(0x53F28216)
+F (.\RTE\Device\MK64FN1M0xxx12\system_MK64F12.c)(0x53FE55D4)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork -I C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include -I C:\Freescale\KSDK_1.2.0\platform\devices\MK64F12 -I .\drivers -I .\RTE\Device\MK64FN1M0xxx12\include-I.\RTE\_FRDM-K64-IC:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Sajib\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -D_RTE_ -DMK64FN1M0xxx12-o .\obj\system_mk64f12.o --omf_browse .\obj\system_mk64f12.crf --depend .\obj\system_mk64f12.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (.\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h)(0x539224F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h)(0x550962F4)
+I (C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h)(0x550962F4)
+I (.\RTE\Device\MK64FN1M0xxx12\include\system_MK64F12.h)(0x53FE5692)
+F (.\RTE\Device\MK64FN1M0xxx12\startup_MK64F12.s)(0x53FE5730)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_FRDM-K64-IC:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Sajib\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "MK64FN1M0xxx12 SETA 1"--list .\lst\startup_mk64f12.lst --xref -o .\obj\startup_mk64f12.o --depend .\obj\startup_mk64f12.d)
+F (C:\Users\Sajib\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Lib\ARM\arm_cortexM4lf_math.lib)(0x5D264786)()

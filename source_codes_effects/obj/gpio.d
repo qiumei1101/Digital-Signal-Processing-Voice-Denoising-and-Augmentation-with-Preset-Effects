@@ -1,0 +1,11 @@
+.\obj\gpio.o: drivers\gpio.c
+.\obj\gpio.o: .\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h
+.\obj\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\gpio.o: C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h
+.\obj\gpio.o: C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h
+.\obj\gpio.o: C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h
+.\obj\gpio.o: C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h
+.\obj\gpio.o: .\RTE\Device\MK64FN1M0xxx12\include\system_MK64F12.h
+.\obj\gpio.o: drivers\platform.h
+.\obj\gpio.o: .\RTE\Device\MK64FN1M0xxx12\include\MK64F12.h
+.\obj\gpio.o: drivers\gpio.h
